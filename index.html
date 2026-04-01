@@ -79,7 +79,7 @@
   }
   .hero h1 {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: clamp(52px, 7vw, 88px);
+    font-size: clamp(38px, 7vw, 88px);
     font-weight: 800; line-height: 1.0;
     text-transform: uppercase;
     margin-bottom: 24px;
@@ -189,7 +189,7 @@
 
   /* ── HOW IT WORKS ── */
   .how-section { background: var(--dark2); }
-  .steps { display: flex; gap: 0; margin-top: 56px; position: relative; flex-wrap: wrap; }
+  .steps { display: flex; gap: 0; margin-top: 56px; position: relative; flex-wrap: wrap; row-gap: 40px; }
   .steps::before {
     content:''; position:absolute;
     top: 28px; left: 28px; right: 28px; height: 2px;
@@ -215,7 +215,7 @@
     font-size: 18px; font-weight: 700; text-transform: uppercase;
     letter-spacing: 1px; margin-bottom: 8px;
   }
-  .step p { color: var(--muted); font-size: 14px; }
+  .step p { color: var(--muted); font-size: 16px; margin-bottom: 32px; }
 
   /* ── WHY US ── */
   .why-grid {
@@ -391,8 +391,7 @@
         <polygon points="70,16 59,16 40,44 49,47" fill="#1A7FBF"/>
         <polygon points="31,47 49,47 40,57" fill="url(#ng)"/>
       </g>
-      <text x="46" y="38" font-family="'Barlow Condensed',sans-serif" font-size="34" font-weight="300" letter-spacing="2" fill="#F0F6FA">METRI</text>
-      <text x="168" y="38" font-family="'Barlow Condensed',sans-serif" font-size="34" font-weight="800" letter-spacing="2" fill="url(#ng)">PLAN</text>
+      <text x="46" y="38" font-family="'Barlow Condensed',sans-serif" font-size="34" letter-spacing="2" fill="#F0F6FA"><tspan font-weight="300">METRI</tspan><tspan font-weight="800" fill="url(#ng)">PLAN</tspan></text>
     </svg>
   </div>
   <a href="#contacto" class="nav-cta">Solicitar consulta</a>
@@ -501,201 +500,4 @@
       <h3>Trámite municipal</h3>
       <p>Gestión integral ante el municipio para la aprobación de planos. Nos encargamos de todo el proceso hasta obtener la aprobación final.</p>
     </div>
-  </div>
-</section>
-
-<!-- HOW IT WORKS -->
-<section class="how-section">
-  <div class="section-label">El proceso</div>
-  <h2>¿Cómo <span>trabajamos?</span></h2>
-  <p class="section-sub">Simple, claro y sin vueltas.</p>
-
-  <div class="steps">
-    <div class="step">
-      <div class="step-num">1</div>
-      <h4>Consulta</h4>
-      <p>Completás el formulario con los datos de tu inmueble o proyecto.</p>
-    </div>
-    <div class="step">
-      <div class="step-num">2</div>
-      <h4>Presupuesto</h4>
-      <p>Te enviamos un presupuesto claro en menos de 24 horas.</p>
-    </div>
-    <div class="step">
-      <div class="step-num">3</div>
-      <h4>Relevamiento</h4>
-      <p>Coordinamos la visita y ejecutamos el trabajo en el lugar.</p>
-    </div>
-    <div class="step">
-      <div class="step-num">4</div>
-      <h4>Entrega</h4>
-      <p>Recibís toda la documentación digital lista para usar.</p>
-    </div>
-  </div>
-</section>
-
-<!-- WHY US -->
-<section>
-  <div class="section-label">Por qué elegirnos</div>
-  <h2>Precisión y <span>confianza</span></h2>
-  <div class="why-grid">
-    <div class="why-list">
-      <div class="why-item">
-        <div class="why-dot"></div>
-        <div>
-          <h4>Documentación lista para trámites</h4>
-          <p>Todos los trabajos cumplen los requisitos técnicos y formatos exigidos por los organismos.</p>
-        </div>
-      </div>
-      <div class="why-item">
-        <div class="why-dot"></div>
-        <div>
-          <h4>Tiempos claros y cumplidos</h4>
-          <p>Estimamos los plazos antes de arrancar y los respetamos. Sin sorpresas.</p>
-        </div>
-      </div>
-      <div class="why-item">
-        <div class="why-dot"></div>
-        <div>
-          <h4>Comunicación directa</h4>
-          <p>Trabajás directamente con el profesional responsable, sin intermediarios.</p>
-        </div>
-      </div>
-      <div class="why-item">
-        <div class="why-dot"></div>
-        <div>
-          <h4>Formato digital y papel</h4>
-          <p>Entregamos en los formatos que necesitás: PDF e impreso con sello profesional.</p>
-        </div>
-      </div>
-    </div>
-    <div class="why-visual">
-      <svg class="why-visual-icon" width="64" height="64" viewBox="0 0 64 64" fill="none" stroke="#2ECAD4" stroke-width="2" stroke-linecap="round">
-        <circle cx="32" cy="32" r="28"/>
-        <polyline points="20,32 28,40 44,24"/>
-      </svg>
-      <div class="why-visual-title">Documentación con respaldo profesional</div>
-      <p>Cada trabajo está firmado y respaldado. Apto para escribanos, inmobiliarias y organismos municipales.</p>
-    </div>
-  </div>
-</section>
-
-<!-- TESTIMONIOS -->
-<section class="how-section">
-  <div class="section-label">Lo que dicen nuestros clientes</div>
-  <h2>Opiniones <span>reales</span></h2>
-  <p class="section-sub">La confianza de nuestros clientes es nuestro mejor trabajo.</p>
-
-  <div class="testimonials-grid">
-
-    <div class="testimonial-card">
-      <div class="testimonial-stars">★★★★★</div>
-      <p class="testimonial-text">"Necesitaba los planos de mi departamento para la escritura y no sabía a quién recurrir. Metriplan me asesoró desde el primer momento, el trabajo fue impecable y la documentación quedó perfecta."</p>
-      <div class="testimonial-author">
-        <div class="testimonial-avatar">MG</div>
-        <div>
-          <div class="testimonial-name">Marcela G.</div>
-          <div class="testimonial-role">Propietaria · Palermo</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="testimonial-card">
-      <div class="testimonial-stars">★★★★★</div>
-      <p class="testimonial-text">"Trabajamos con Metriplan para relevar varios locales antes de alquilarlos. Excelente precisión en las mediciones y la documentación llegó en tiempo y forma. Un profesional de primera."</p>
-      <div class="testimonial-author">
-        <div class="testimonial-avatar">RL</div>
-        <div>
-          <div class="testimonial-name">Ricardo L.</div>
-          <div class="testimonial-role">Inmobiliaria · Villa Urquiza</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="testimonial-card">
-      <div class="testimonial-stars">★★★★★</div>
-      <p class="testimonial-text">"Me ayudaron con el croquis para la habilitación del local y también con el trámite municipal. Me ahorraron un montón de tiempo y dolores de cabeza. Muy recomendable."</p>
-      <div class="testimonial-author">
-        <div class="testimonial-avatar">SP</div>
-        <div>
-          <div class="testimonial-name">Sofía P.</div>
-          <div class="testimonial-role">Comerciante · Caballito</div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section class="contact-section" id="contacto">
-  <div class="section-label">Contacto</div>
-  <h2>Solicitá tu <span>presupuesto</span></h2>
-  <div class="contact-wrap">
-    <div class="contact-info">
-      <h3>Te respondemos en menos de 24 horas</h3>
-      <p>Completá el formulario con los datos de tu proyecto y te enviamos un presupuesto detallado sin compromiso.</p>
-      <div class="contact-badge">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.01 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-        Mar del Plata · Atención personalizada
-      </div>
-    </div>
-
-    <div>
-      <form class="form" id="contactForm" onsubmit="handleSubmit(event)">
-        <div class="form-row">
-          <div class="form-group">
-            <label>Nombre</label>
-            <input type="text" placeholder="Tu nombre" required/>
-          </div>
-          <div class="form-group">
-            <label>Teléfono</label>
-            <input type="tel" placeholder="11 XXXX-XXXX" required/>
-          </div>
-        </div>
-        <div class="form-group">
-          <label>Email</label>
-          <input type="email" placeholder="tu@email.com" required/>
-        </div>
-        <div class="form-group">
-          <label>Servicio que necesitás</label>
-          <select required>
-            <option value="" disabled selected>Seleccioná un servicio</option>
-            <option>Mediciones y relevamientos</option>
-            <option>Confección de planos</option>
-            <option>Informe técnico</option>
-            <option>Planos para regularización / municipio</option>
-            <option>Croquis para habilitación comercial</option>
-            <option>Trámite municipal para aprobación de planos</option>
-            <option>No sé, necesito asesoramiento</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label>Descripción del proyecto</label>
-          <textarea placeholder="Contanos brevemente: ubicación, tipo de inmueble, para qué necesitás los planos..."></textarea>
-        </div>
-        <button type="submit" class="btn-submit">Enviar consulta →</button>
-      </form>
-      <div class="form-success" id="formSuccess">
-        ✓ ¡Consulta recibida! Te respondemos en menos de 24 horas.
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- FOOTER -->
-<footer>
-  <div class="footer-logo">METRI<span>PLAN</span></div>
-  <p>Mediciones · Planos · Informes Técnicos · Mar del Plata y alrededores</p>
-  <p style="color:var(--muted); font-size:12px;">© 2025 Metriplan. Todos los derechos reservados.</p>
-</footer>
-
-<script>
-function handleSubmit(e) {
-  e.preventDefault();
-  document.getElementById('contactForm').style.display = 'none';
-  document.getElementById('formSuccess').style.display = 'block';
-}
-</script>
-</body>
-</html>
+    
